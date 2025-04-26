@@ -3,7 +3,7 @@
 **Konversi suhu dari Celcius ke Fahrenheit dan Sebaliknya**
 Start
     Print "Masukkan nilai suhu:"   
-    Input input_temperature 
+    input input_temperature 
     Print "Silahkan pilih jenis konversi :
     Print "1. Celcius ke Fahrenheit"
     Print "2 Fahrenheit ke Celcius"
