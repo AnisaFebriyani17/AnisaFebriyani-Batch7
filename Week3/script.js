@@ -1,7 +1,7 @@
 //Hello World
-console.log("Hello, World!JavaScript is fun!")
+console.log("Hello, World!JavaScript is fun!");
 
-//Variabel and Primitive
+// //Variabel and Primitive
 let name = "Anisa Febriyani";  
 let age = 23;  
 let likesJs = true;  
