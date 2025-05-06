@@ -9,6 +9,7 @@ let likesJs = true;
 console.log("Nama: " + name);
 console.log("Umur: " + age + " Tahun");
 console.log("Suka JavaScript: " + likesJs);
+console.log(`Suka JavaScript: ${likesJs}`);
 
 //Control Flow 
 function checkAge1(age1) {
