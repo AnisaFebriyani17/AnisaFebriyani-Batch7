@@ -1,0 +1,16 @@
+.hero{
+    background-color: lightgray;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero button{
+    font-size: 16px;
+    padding: 10 px 20 px;
+    
+}
+
+.hero button:hover {
+    background-color: greenyellow;
+    color: darkslategray;
+}

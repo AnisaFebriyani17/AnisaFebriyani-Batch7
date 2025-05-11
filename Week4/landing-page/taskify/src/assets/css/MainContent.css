@@ -1,0 +1,7 @@
+.card-section {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
