@@ -1,0 +1,25 @@
+.form-container {
+  background: cornsilk;
+  border: 2px dashed saddlebrown;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background: saddlebrown;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.reset {
+  background: firebrick;
+}

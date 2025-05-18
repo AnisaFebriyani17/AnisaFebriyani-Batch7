@@ -1,0 +1,10 @@
+.list-container {
+  background: moccasin;
+  padding: 15px;
+  border-radius: 8px;
+}
+.empty-msg {
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}

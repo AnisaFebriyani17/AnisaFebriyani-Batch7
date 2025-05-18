@@ -1,0 +1,21 @@
+.quest-item {
+  background: burlywood;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 8px solid saddlebrown;
+}
+
+.quest-item.completed {
+  background: white;
+  color: goldenrod;
+  font-weight: bold;
+  border-left: 8px solid gold;
+  box-shadow: 0 0 10px gold;
+}
+
+.actions button {
+  margin-left: 10px;
+}

@@ -1,0 +1,14 @@
+.app-container {
+  border: 3px solid saddlebrown;
+  background: seashell;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: auto;
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
