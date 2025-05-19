@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
+import "./assets/css/main.css";
 
 let features = [
   {
@@ -25,11 +26,13 @@ let features = [
 
 function App() {
   return (
-    <div>
+    <div className="page-container">
       <Header />
       <Navbar />
       <HeroSection />
-      <MainContent data={features}/>
+      <main className="main-content">
+        <MainContent data={features} />
+      </main>
       <Footer />
     </div>
   );

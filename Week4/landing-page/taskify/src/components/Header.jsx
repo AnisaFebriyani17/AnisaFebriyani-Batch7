@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar"; 
+import Navbar from "./Navbar";
 import "../assets/css/Header.css";
 
 export default function Header() {

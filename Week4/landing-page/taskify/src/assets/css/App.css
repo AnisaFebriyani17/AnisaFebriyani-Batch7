@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+div, section, header, footer, nav {
+  box-sizing: border-box;
+}
+
+.fixed-container {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
