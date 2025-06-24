@@ -9,9 +9,24 @@ export default function App() {
   return (
     <ProductProvider>
       <div>
-        <nav>
-          <Link to="/">Home</Link> | <Link to="/catalog">Catalog</Link>
-        </nav>
+        <div className="navbar bg-emerald-700 text-white mb-6 shadow">
+          <div className="flex-1">
+            <Link
+              to="/"
+              className="btn btn-ghost normal-case text-xl text-white"
+            >
+              IjoImut
+            </Link>
+          </div>
+          <div className="flex-none space-x-2">
+            <Link to="/" className="btn btn-ghost text-white">
+              Home
+            </Link>
+            <Link to="/catalog" className="btn btn-ghost text-white">
+              Catalog
+            </Link>
+          </div>
+        </div>
 
         <Routes>
           <Route path="/" element={<LandingPage />} />
