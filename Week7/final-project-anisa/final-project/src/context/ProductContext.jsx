@@ -1,10 +1,9 @@
-import React from "react";
 import React, { createContext, useState, useEffect } from "react";
 import axios from "axios";
 
 export const ProductContext = createContext();
 
-export default function ProductProvider({ children }) {
+export function ProductProvider({ children }) {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
